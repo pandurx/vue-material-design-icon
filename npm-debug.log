@@ -1,0 +1,106 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'publish', '--access=public' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 verbose publish [ '.' ]
+5 silly cache add args [ '.', null ]
+6 verbose cache add spec .
+7 silly cache add parsed spec Result {
+7 silly cache add   raw: '.',
+7 silly cache add   scope: null,
+7 silly cache add   name: null,
+7 silly cache add   rawSpec: '.',
+7 silly cache add   spec: '/home/cyu/material-design-icons-master',
+7 silly cache add   type: 'directory' }
+8 verbose addLocalDirectory /root/.npm/material-design-icons/3.0.1/package.tgz not in flight; packing
+9 info lifecycle material-design-icons@3.0.1~prepublish: material-design-icons@3.0.1
+10 silly lifecycle material-design-icons@3.0.1~prepublish: no script for prepublish, continuing
+11 verbose tar pack [ '/root/.npm/material-design-icons/3.0.1/package.tgz',
+11 verbose tar pack   '/home/cyu/material-design-icons-master' ]
+12 verbose tarball /root/.npm/material-design-icons/3.0.1/package.tgz
+13 verbose folder /home/cyu/material-design-icons-master
+14 verbose addLocalTarball adding from inside cache /root/.npm/material-design-icons/3.0.1/package.tgz
+15 silly cache afterAdd material-design-icons@3.0.1
+16 verbose afterAdd /root/.npm/material-design-icons/3.0.1/package/package.json not in flight; writing
+17 verbose afterAdd /root/.npm/material-design-icons/3.0.1/package/package.json written
+18 silly publish { name: 'material-design-icons',
+18 silly publish   version: '3.0.1',
+18 silly publish   description: 'Material Design icons by Google',
+18 silly publish   main: 'index.js',
+18 silly publish   repository:
+18 silly publish    { type: 'git',
+18 silly publish      url: 'git+https://github.com/pandurx/vue-material-design-icon.git' },
+18 silly publish   keywords: [ 'icons', 'material', 'material-design', 'google' ],
+18 silly publish   author: { name: 'Material Design Authors' },
+18 silly publish   license: 'Apache-2.0',
+18 silly publish   bugs:
+18 silly publish    { url: 'https://github.com/google/material-design-icons/issues' },
+18 silly publish   homepage: 'https://github.com/google/material-design-icons',
+18 silly publish   devDependencies:
+18 silly publish    { 'babel-core': '^6.1.2',
+18 silly publish      'babel-preset-es2015': '^6.1.2',
+18 silly publish      gulp: '^3.9.0',
+18 silly publish      'gulp-if': '^2.0.0',
+18 silly publish      'gulp-svg-sprite': '^1.2.14',
+18 silly publish      lodash: '^3.10.1',
+18 silly publish      sprity: '^1.0.8',
+18 silly publish      'sprity-gm': '^1.0.2',
+18 silly publish      through2: '^2.0.0',
+18 silly publish      'underscore.string': '^3.2.2',
+18 silly publish      vinyl: '^1.1.0' },
+18 silly publish   readme: '# Material design icons\n\nMaterial design icons is the official [icon set](https://www.google.com/design/spec/style/icons.html#icons-system-icons) from Google.  The icons are designed under the [material design guidelines](https://material.io/guidelines/).\n\n### 3.0.1 Update\n\n* Changed license in package.json.\n* Added missing device symbol sprites.\n\n### 3.0.0 Update\n\nLicense change to Apache 2.0!\n\n## Getting Started\n\nRead the [developer guide](https://google.github.io/material-design-icons/) on how to use the material design icons in your project.\n\n### Using a font collection\n\nThe `iconfont` folder contains pre-generated font files that can be included in a project. This is especially convenient for the web; however, it is generally better to link to the web font hosted on Google Fonts:\n\n```html\n<link href="https://fonts.googleapis.com/icon?family=Material+Icons"\n      rel="stylesheet">\n```\n\nRead more in the [font portion](https://google.github.io/material-design-icons/#icon-font-for-the-web) of our full developer guide.\n\n### Using symbols and sprites\n\nThe `css-sprite` and `svg-sprite` folders contain pre-generated sprite sheets, as well as svg symbols that can be `<use>`d more directly and with fewer constraints. Instructions for using them are in the [sprites documentation](https://github.com/google/material-design-icons/tree/master/sprites).\n\n## Polymer icons\n\nIf you wish to use the icon set with Polymer, we recommend consuming them via the [`<iron-icons>`](https://github.com/polymerelements/iron-icons) element ([`<core-icons>`](https://github.com/Polymer/core-icons) in v0.5).\n\n## License\n\nWe have made these icons available for you to incorporate into your products under the [Apache License Version 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt). Feel free to remix and re-share these icons and documentation in your products.\nWe\'d love attribution in your app\'s *about* screen, but it\'s not required. The only thing we ask is that you not re-sell these icons.\n',
+18 silly publish   readmeFilename: 'README.md',
+18 silly publish   gitHead: 'c5e9cffdea92d96340825f45348135d1ec47683b',
+18 silly publish   _id: 'material-design-icons@3.0.1',
+18 silly publish   scripts: {},
+18 silly publish   _shasum: '37f5cfb47a2c81e514116061c8064222e6b03821',
+18 silly publish   _from: '.' }
+19 verbose getPublishConfig undefined
+20 silly mapToRegistry name material-design-icons
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/material-design-icons
+24 verbose publish registryBase https://registry.npmjs.org/
+25 silly publish uploading /root/.npm/material-design-icons/3.0.1/package.tgz
+26 verbose request uri https://registry.npmjs.org/material-design-icons
+27 verbose request sending authorization for write operation
+28 info attempt registry request try #1 at 4:23:56 AM
+29 verbose request using bearer token for auth
+30 verbose request id 9ad45851b2a3e363
+31 http request PUT https://registry.npmjs.org/material-design-icons
+32 http 403 https://registry.npmjs.org/material-design-icons
+33 verbose headers { date: 'Wed, 05 Sep 2018 04:24:45 GMT',
+33 verbose headers   'content-type': 'application/json',
+33 verbose headers   'transfer-encoding': 'chunked',
+33 verbose headers   connection: 'keep-alive',
+33 verbose headers   'set-cookie':
+33 verbose headers    [ '__cfduid=dfef3bb3cca96a8adae12ec50f37608a31536121481; expires=Thu, 05-Sep-19 04:24:41 GMT; path=/; domain=.registry.npmjs.org; HttpOnly' ],
+33 verbose headers   'cf-ray': '4555eca99b210ed3-EWR',
+33 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+33 verbose headers   vary: 'Accept-Encoding',
+33 verbose headers   server: 'cloudflare',
+33 verbose headers   'content-encoding': 'gzip' }
+34 verbose request invalidating /root/.npm/registry.npmjs.org/material-design-icons on PUT
+35 error publish Failed PUT 403
+36 verbose stack Error: You do not have permission to publish "material-design-icons". Are you logged in as the correct user? : material-design-icons
+36 verbose stack     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+36 verbose stack     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+36 verbose stack     at /usr/share/npm/node_modules/npm-registry-client/lib/request.js:178:7
+36 verbose stack     at Gunzip.onEnd (zlib.js:131:5)
+36 verbose stack     at emitNone (events.js:111:20)
+36 verbose stack     at Gunzip.emit (events.js:208:7)
+36 verbose stack     at endReadableNT (_stream_readable.js:1064:12)
+36 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:138:11)
+36 verbose stack     at process._tickCallback (internal/process/next_tick.js:180:9)
+37 verbose statusCode 403
+38 verbose pkgid material-design-icons
+39 verbose cwd /home/cyu/material-design-icons-master
+40 error Linux 4.15.0-29-generic
+41 error argv "/usr/bin/node" "/usr/bin/npm" "publish" "--access=public"
+42 error node v8.10.0
+43 error npm  v3.5.2
+44 error code E403
+45 error You do not have permission to publish "material-design-icons". Are you logged in as the correct user? : material-design-icons
+46 error If you need help, you may report this error at:
+46 error     <https://github.com/npm/npm/issues>
+47 verbose exit [ 1, true ]
